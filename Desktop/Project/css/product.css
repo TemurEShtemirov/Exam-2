@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Schoolbell&display=swap");
+:root {
+  --c-title: #08546C;
+  --c-text: #9F9F9F;
+  --c-btnhover: #FFA800;
+  --c-bgcolor: #FFF9E6;
+  --c-btn: #FAF4F4;
+  --f-main: "Bai Jamjuree", sans-serif;
+  --transition: all .4s cubic-bezier(.165, .84, .44, 1);
+  --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: Poppins;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.s-1 div a {
+  color: #9F9F9F;
+  font-weight: 500;
+  font-size: 20px;
+}
+.s-1 div h2 {
+  font-size: 20px;
+}
+
+.s-2 .calc {
+  width: 120px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.s-2 .calc span {
+  font-size: 20px;
+}
+.s-2 .box_1 .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 450px;
+  background-color: #FFF9E6;
+}
+.s-2 .box_1 .img img {
+  width: 450px;
+}
+.s-2 .box_1 .imgs img {
+  background-color: #FFF9E6;
+}
+.s-2 .box_2 h2 {
+  font-size: 42px;
+}
+.s-2 .box_2 h3 {
+  font-size: 25px;
+  color: #9F9F9F;
+}
+.s-2 .box_2 .stars img {
+  width: 100px;
+}
+.s-2 .box_2 .size span {
+  font-size: 15px;
+  background-color: #FAF4F4;
+  padding: 10px;
+}
+.s-2 .box_2 .size p {
+  color: #9F9F9F;
+  font-size: 15px;
+}
+.s-2 .box_2 .color p {
+  color: #9F9F9F;
+  font-size: 15px;
+}
+.s-2 .box_2 .color div p {
+  width: 30px;
+  height: 30px;
+  background-color: #816DFA;
+}
+.s-2 .box_2 .color div .c-2 {
+  background-color: black;
+}
+.s-2 .box_2 .color div .c-3 {
+  background-color: #CDBA7B;
+}
+.s-2 .o-c-w .product {
+  margin-bottom: 200px;
+}
+.s-2 .o-c-w .product i {
+  background-color: #9F9F9F;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}/*# sourceMappingURL=product.css.map */
